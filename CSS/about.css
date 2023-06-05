@@ -1,0 +1,30 @@
+#about_me{
+    padding: 80px 15px;
+}
+#about_me .title{
+    position: relative;
+    width: 250px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+#about_me .circle{
+    background: #d2ab4e;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    position: absolute;
+    top: 23px;
+}
+#about_me .title h1{
+    position: relative;
+    font-size: 2.5rem;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #16171b;
+    z-index: 1;
+    letter-spacing: 4px;
+    text-align: center;
+}

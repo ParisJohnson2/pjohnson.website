@@ -1,3 +1,9 @@
 @import "reset.css";
-@import "navbar.css";
-@import "intro_section.css"
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@100;300;400;500;700;900&display=swap');
+@import "top_section.css";
+@import "about.css";
+
+.container{
+    max-width: 1400px;
+    margin: 0 auto;
+ }
