@@ -2,8 +2,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@100;300;400;500;700;900&display=swap');
 @import "top_section.css";
 @import "about.css";
+@import "portfolio.css";
 
 .container{
-    max-width: 1400px;
+    max-width: 1150px;
     margin: 0 auto;
  }
