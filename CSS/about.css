@@ -3,20 +3,20 @@
 }
 #about_me .title{
     position: relative;
-    width: 250px;
+    width: 210px;
     height: 200px;
     display: flex;
     justify-content: center;
     align-items: center;
     margin: 0 auto;
 }
-#about_me .circle{
-    background: #d2ab4e;
+#about_me .tower{
+    /*background: #d2ab4e;*/
     width: 150px;
     height: 150px;
     border-radius: 50%;
     position: absolute;
-    top: 23px;
+    top: -4rem;
 }
 #about_me .title h1{
     position: relative;
@@ -27,4 +27,59 @@
     z-index: 1;
     letter-spacing: 4px;
     text-align: center;
+}
+#about_me .b-info{
+    position: relative;
+    font-size: 1rem;
+    font-weight: 400;
+    width: 300px;
+    justify-content: center;
+    text-align: center;
+    margin: 0 auto;
+    top: -3rem;
+    word-spacing: 3px;
+    line-height: 1.5rem;
+}
+#about_me .about-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 40px;
+}
+#about_me .about-container .box{
+    background: rgba(255,255,255,0);
+    padding: 40px;
+    transition: all .4s ease-in-out;
+}
+#about_me .about-container .box a{
+    color: #16171b;
+}
+#about_me .about-container .box:hover{
+    -webkit-box-shadow: 0px 40px 71px 30px rgba(0,0,0,0.19);
+    -moz-box-shadow: 0px 40px 71px 30px rgba(0,0,0,0.19);
+    box-shadow: 0px 40px 71px 30px rgba(0,0,0,0.19);
+}
+#about_me .about-container .box h5{
+    font-size: .9rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-bottom: 2rem;
+}
+#about_me .about-container .box .logo{
+    font-size: 2rem;
+    margin-bottom: 2rem;
+}
+#about_me .about-container .box p{
+    font-size: .8rem;
+    line-height: 1.5;
+    color: #484848;
+}
+#about_me .about-container .box.blue{
+    border-bottom: 2px solid #52b8ff;
+}
+#about_me .about-container .box.red{
+    border-bottom: 2px solid #ff5253;
+}
+#about_me .about-container .box.yellow{
+    border-bottom: 2px solid #ffc853;
 }
