@@ -3,6 +3,7 @@
 @import "top_section.css";
 @import "about.css";
 @import "portfolio.css";
+@import "experience-section.css";
 
 .container{
     max-width: 1150px;

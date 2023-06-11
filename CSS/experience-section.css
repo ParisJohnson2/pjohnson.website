@@ -1,0 +1,83 @@
+#experience-section{
+    padding: 80px, 0, 0;
+    background-color: rgb(3, 3, 3);
+}
+#experience-section .large-title{
+    color: rgba(255, 184, 53, 0.8);
+    font-weight: 900;
+    font-size: 4.5rem;
+    text-align: center;
+    text-transform: uppercase;
+    position: relative;
+    left: -75px;
+}
+#experience-section .experience-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+}
+#experience-section .experience-container .large-icons .coin-1{
+    display: inline-block;
+    position: relative;
+    padding: 5px;
+    top: -5.5rem;
+    left: 2rem;
+}
+#experience-section .experience-container .large-icons .coin-1 .first-coin{
+    width: 16rem;
+    height: 15rem;
+}
+#experience-section .experience-container .large-icons .coin-2{
+    display: inline-block;
+    position: relative;
+    padding: 5px;
+    top: -14.5rem;
+    left: 12rem;
+}
+#experience-section .experience-container .large-icons .coin-2 .second-coin{
+    width: 26rem;
+    height: 24rem;
+}
+#experience-section .experience-container .large-icons .coin-3{
+    display: inline-block;
+    position: relative;
+    padding: 5px;
+    top: -26rem;
+    left: -2rem;
+    
+}
+#experience-section .experience-container .large-icons .coin-3 .third-coin{
+    width: 26rem;
+    height: 24rem;
+}
+#experience-section .experience-container .info{
+    padding: 80px 0 0;
+}
+#experience-section .experience-container .info .info-box{
+    padding: 15px;
+}
+#experience-section .experience-container .info h4{
+    color: #f7e00f;
+    font-size: 1.2rem;
+    font-weight: 900;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+#experience-section .experience-container .info .date{
+    color: #f7960f;
+    font-size: .9rem;
+    font-weight: 600;
+    text-transform: capitalize;
+    letter-spacing: 3px;
+    padding: 15px 0;
+    display: block;
+}
+#experience-section .experience-container .info p{
+    color: #8e8b86;
+    font-size: 1rem;
+    font-weight: 400;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+    display: block;
+    line-height: 1.5;
+}
