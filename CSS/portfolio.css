@@ -1,5 +1,10 @@
 #portfolio{
     padding: 80px 15px;
+    background: url(https://78.media.tumblr.com/887ed102eba8b2f59ecddabd73d3c05c/tumblr_ok96baWxy61vsjcxvo1_540.gif);
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
 }
 #portfolio .title{
     position: relative;
@@ -22,7 +27,7 @@
     font-size: 2.5rem;
     text-transform: uppercase;
     font-weight: 700;
-    color: #16171b;
+    color: rgba(255, 184, 53, 0.8);
     z-index: 1;
     letter-spacing: 4px;
     text-align: center;
