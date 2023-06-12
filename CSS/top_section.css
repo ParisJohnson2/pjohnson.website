@@ -1,121 +1,260 @@
-#top{
-    
+#top .container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 80px 0;
+  align-items: center;
 }
-#top .container{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    padding: 80px 0;
-    align-items: center;
+#top .info {
+  padding: 15px;
+  position: relative;
 }
-#top .info{
-    padding: 15px;
-    position:relative
+#top .info h1 {
+  position: relative;
+  font-size: 2rem;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: #c61313;
+  margin-bottom: 2rem;
+  z-index: 1;
+}
+#top .info p {
+  position: relative;
+  font-weight: 500;
+  color: #c61313;
+  text-transform: uppercase;
+  margin-bottom: 4rem;
+  z-index: 1;
+}
+#top .info a {
+  position: relative;
+  font-size: .9rem;
+  color: rgba(255, 184, 53, 0.8);
+  text-transform: uppercase;
+  font-weight: 700;
+  text-decoration: none;
+  padding-bottom: 5px;
+  border-bottom: 2px solid rgba(255, 184, 53, 0.8);
+  z-index: 1;
+  letter-spacing: 2px;
+}
+#top .img .background-img {
+  background: url(../Images/full-image.png);
+  background-position: top center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  max-width: 500px;
+  height: 700px;
+  margin: 0 auto;
+  border-radius: 0 0 20% 20%;
 }
 
-#top .info h1{
-    position: relative;
-    font-size: 2rem;
-    text-transform: uppercase;
-    font-weight: 700;
-    color: #16171b;
-    margin-bottom: 2rem;
-    z-index: 1;
+#top_bg {
+  margin: 0;
+  padding: 0;
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  background: url(https://media.giphy.com/media/MaeQf52vtr2bS/giphy.gif);
+  background-position: top center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow: hidden;
 }
-#top .info p{
-    position: relative;
-    color: #c8c9ce;
-    text-transform: uppercase;
-    margin-bottom: 4rem;
-    z-index: 1;
-}
-#top .info a{
-    position: relative;
-    font-size: .9rem;
-    color: #16171b;
-    text-transform: uppercase;
-    font-weight: 700;
-    text-decoration: none;
-    padding-bottom: 5px;
-    border-bottom: 2px solid #000;
-    z-index: 1;
-    letter-spacing: 2px;
-}
-#top .img{
 
+#top_bg .air {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100px;
+  background: url(https://1.bp.blogspot.com/-xQUc-TovqDk/XdxogmMqIRI/AAAAAAAACvI/AizpnE509UMGBcTiLJ58BC6iViPYGYQfQCLcBGAsYHQ/s1600/wave.png);
+  background-size: 1000px 100px
 }
-#top .img .background-img{
+
+#top_bg .air.air1 {
+  animation: wave 30s linear infinite;
+  z-index: 1000;
+  opacity: 1;
+  animation-delay: 0s;
+  bottom: 0;
+}
+
+#top_bg .air.air2 {
+  animation: wave2 15s linear infinite;
+  z-index: 999;
+  opacity: 0.5;
+  animation-delay: -5s;
+  bottom: 10px;
+}
+
+#top_bg .air.air3 {
+  animation: wave 30s linear infinite;
+  z-index: 998;
+  opacity: 0.2;
+  animation-delay: -2s;
+  bottom: 15px;
+}
+
+#top_bg .air.air4 {
+  animation: wave2 5s linear infinite;
+  z-index: 997;
+  opacity: 0.7;
+  animation-delay: -5s;
+  bottom: 20px;
+}
+
+@keyframes wave {
+  0% {
+    background-position-x: 0px;
+  }
+
+  100% {
+    background-position-x: 1000px;
+  }
+}
+
+@keyframes wave2 {
+  0% {
+    background-position-x: 0px;
+  }
+
+  100% {
+    background-position-x: -1000px;
+  }
+}
+/* Large screens over 2000px */
+@media only screen and (min-width: 2001px) {
+  #top .container {
+    padding: 0;
+  }
+
+  #top .img .background-img {
     background: url(../Images/full-image.png);
     background-position: top center;
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
     max-width: 500px;
-    height: 700px;
+    height: 900px;
+    padding-top: 0;
     margin: 0 auto;
-}
-
-#top_bg{
-    margin: 0;
-    padding: 0;
     position: relative;
-    width: 100%;
-    height: 100vh;
-    background: url(https://media.giphy.com/media/MaeQf52vtr2bS/giphy.gif);
-    background-position: top center;
+    top: 21rem;
+  }
+
+  #top .info {
+    padding: 15px;
+    position: relative;
+    left: -1.5rem;
+    top: 7rem;
+  }
+}
+/* Screens 1590px & up */
+@media only screen and (max-width: 2000px) and (min-width: 1590px) {
+  #top .container {
+    padding: 0;
+  }
+
+  #top .img .background-img {
+    background: url(../Images/full-image.png);
+    background-position: top right;
     background-repeat: no-repeat;
     background-size: cover;
-    overflow: hidden;
-  }
-  #top_bg .air{
-    position: absolute;
-    bottom: 0;
-    left: 0;
     width: 100%;
-    height: 100px;
-    background: url(https://1.bp.blogspot.com/-xQUc-TovqDk/XdxogmMqIRI/AAAAAAAACvI/AizpnE509UMGBcTiLJ58BC6iViPYGYQfQCLcBGAsYHQ/s1600/wave.png);
-    background-size: 1000px 100px
+    max-width: 500px;
+    height: 900px;
+    padding-top: 5px;
+    margin: 0 auto;
+    position: relative;
+    top: 21rem;
   }
-  #top_bg .air.air1{
-    animation: wave 30s linear infinite;
-    z-index: 1000;
-    opacity: 1;
-    animation-delay: 0s;
-    bottom: 0;
+
+  #top .info {
+    padding: 15px;
+    position: relative;
+    left: -1.5rem;
+    top: 7rem;
   }
-  #top_bg .air.air2{
-    animation: wave2 15s linear infinite;
-    z-index: 999;
-    opacity: 0.5;
-    animation-delay: -5s;
-    bottom: 10px;
+}
+/* Screens 1580px-1000px */
+@media only screen and (max-width: 1580px) and (min-width: 1000px) {
+  #top .container {
+    padding: 0;
   }
-  #top_bg .air.air3{
-    animation: wave 30s linear infinite;
-    z-index: 998;
-    opacity: 0.2;
-    animation-delay: -2s;
-    bottom: 15px;
+
+  #top .img .background-img {
+    background: url(../Images/full-image.png);
+    background-position: top right;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    max-width: 500px;
+    height: 900px;
+    padding-top: 5px;
+    margin: 0 auto;
+    position: relative;
+    top: 13rem;
   }
-  #top_bg .air.air4{
-    animation: wave2 5s linear infinite;
-    z-index: 997;
-    opacity: 0.7;
-    animation-delay: -5s;
-    bottom: 20px;
+
+  #top .info {
+    padding: 15px;
+    position: relative;
+    left: -1.5rem;
+    top: 7rem;
   }
-  @keyframes wave{
-    0%{
-      background-position-x: 0px; 
-    }
-    100%{
-      background-position-x: 1000px; 
-    }
+}
+/* Screens 1000px-767px */
+@media only screen and (max-width: 1000px) and (min-width: 767px) {
+  #top .container {
+    padding: 0;
   }
-  @keyframes wave2{
-    0%{
-      background-position-x: 0px; 
-    }
-    100%{
-      background-position-x: -1000px; 
-    }
+
+  #top .img .background-img {
+    background: url(../Images/full-image.png);
+    background-position: top right;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    max-width: 500px;
+    height: 900px;
+    padding-top: 5px;
+    margin: 0 auto;
+    position: relative;
+    top: 23rem;
+  }
+
+  #top .info {
+    padding: 15px;
+    position: relative;
+    left: -1.5rem;
+    top: 7rem;
+  }
+}
+/* Phones */
+@media only screen and (max-width: 767px) and (min-width: 300px) {
+  #top .container {
+    padding: 0;
+  }
+
+  #top .img .background-img {
+    background: url(../Images/full-image.png);
+    background-position: top right;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    max-width: 500px;
+    height: 700px;
+    padding-top: 0;
+    margin: 0 auto;
+    position: relative;
+    top: 14rem;
+  }
+
+  #top .info {
+    padding: 15px;
+    position: relative;
+    left: -1.5rem;
+    top: 14rem;
+  }
 }
