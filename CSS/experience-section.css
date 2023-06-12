@@ -1,5 +1,5 @@
 #experience-section{
-    padding: 80px, 0, 0;
+    padding: 80px 0 0;
     background-color: rgb(3, 3, 3);
 }
 #experience-section .large-title{
@@ -31,8 +31,8 @@
     display: inline-block;
     position: relative;
     padding: 5px;
-    top: -14.5rem;
-    left: 12rem;
+    top: -10.5rem;
+    left: 6rem;
 }
 #experience-section .experience-container .large-icons .coin-2 .second-coin{
     width: 26rem;
@@ -41,14 +41,15 @@
 #experience-section .experience-container .large-icons .coin-3{
     display: inline-block;
     position: relative;
-    padding: 5px;
-    top: -26rem;
-    left: -2rem;
+    padding: 0;
+    margin: 0;
+    top: -27.4rem;
+    left: -17.3rem;
     
 }
 #experience-section .experience-container .large-icons .coin-3 .third-coin{
-    width: 26rem;
-    height: 24rem;
+    width: 8rem;
+    height: 8rem;
 }
 #experience-section .experience-container .info{
     padding: 80px 0 0;
