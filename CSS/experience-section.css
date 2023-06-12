@@ -82,3 +82,46 @@
     display: block;
     line-height: 1.5;
 }
+/* Tablets */
+@media only screen and (max-width: 1135px){
+    #experience-section .large-title{
+        left: 0;
+        font-size: 3rem;
+    }
+    #experience-section .experience-container .large-icons .coin-1{
+        display: inline-block;
+        position: relative;
+        padding: 5px;
+        top: 1rem;
+        left: 2rem;
+    }
+    #experience-section .experience-container .large-icons .coin-2{
+        display: inline-block;
+        position: relative;
+        padding: 5px;
+        top: -7rem;
+        left: 4rem;
+    }
+    #experience-section .experience-container .large-icons .coin-3 .third-coin{
+        display: hide;
+    }
+}
+/* Phones */
+@media only screen and (max-width: 767px){
+    #experience-section .large-title{
+        left: 0;
+        font-size: 2.5rem;
+    }
+    #experience-section .experience-container{
+        grid-template-columns: 1fr;
+    }
+    #experience-section .experience-container .large-icons{
+        display: none;
+    }
+    #experience-section .experience-container .info h4{
+        font-size: .9rem;
+    }
+    #experience-section .experience-container .info .date{
+        font-size: .8rem;
+    }
+}
