@@ -45,10 +45,15 @@
     grid-template-columns: 1fr 1fr 1fr;
     grid-gap: 40px;
 }
+#about_me .about-container a{
+    text-decoration: none;
+    color: #16171b;
+}
 #about_me .about-container .box{
     background: rgba(255,255,255,0);
     padding: 40px;
     transition: all .4s ease-in-out;
+    cursor: pointer;
 }
 #about_me .about-container .box a{
     color: #16171b;
