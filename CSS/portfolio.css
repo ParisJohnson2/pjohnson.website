@@ -92,7 +92,7 @@
     grid-row: 1 / 2;
 }
 #portfolio .portfolio-container .box.image1 .image{
-    background: url(../Images/Paris\ Johnson.jpg);
+    background: url(../Images/Renew-Fitness.png);
     height: 100%;
     width: 100%;
     background-size: cover;
@@ -104,7 +104,7 @@
     grid-row: 1 / 4;
 }
 #portfolio .portfolio-container .box.image2 .image{
-    background: url(../Images/Paris\ Johnson.jpg);
+    background: url(../Images/Lamborghini-MD.gif);
     height: 100%;
     width: 100%;
     background-size: cover;
@@ -128,7 +128,7 @@
     grid-row: 2 / 2;
 }
 #portfolio .portfolio-container .box.image4 .image{
-    background: url(../Images/Paris\ Johnson.jpg);
+    background: url(../Images/mortgage-calc.png);
     height: 100%;
     width: 100%;
     background-size: cover;
@@ -140,11 +140,11 @@
     grid-row: 4 / 6;
 }
 #portfolio .portfolio-container .box.image5 .image{
-    background: url(../Images/Paris\ Johnson.jpg);
+    background: url(../Images/KsReality.gif);
     height: 100%;
     width: 100%;
     background-size: cover;
-    background-position: center center;
+    background-position: center left;
     background-repeat: no-repeat;
 }
 #portfolio .portfolio-container .box.image6{
