@@ -92,11 +92,11 @@
     grid-row: 1 / 2;
 }
 #portfolio .portfolio-container .box.image1 .image{
-    background: url(../Images/Paris\ Johnson.jpg);
+    background: url(../Images/playstation-email.gif);
     height: 100%;
     width: 100%;
     background-size: cover;
-    background-position: center center;
+    background-position: top center;
     background-repeat: no-repeat;
 }
 #portfolio .portfolio-container .box.image2{
@@ -152,7 +152,7 @@
     grid-row: 3 / 6;
 }
 #portfolio .portfolio-container .box.image6 .image{
-    background: url(../Images/Paris\ Johnson.jpg);
+    background: url(../Images/Playstation-email.jpg);
     height: 100%;
     width: 100%;
     background-size: cover;

@@ -64,25 +64,6 @@
   overflow: hidden;
 }
 
-@keyframes wave {
-  0% {
-    background-position-x: 0px;
-  }
-
-  100% {
-    background-position-x: 1000px;
-  }
-}
-
-@keyframes wave2 {
-  0% {
-    background-position-x: 0px;
-  }
-
-  100% {
-    background-position-x: -1000px;
-  }
-}
 /* Large screens over 2000px */
 @media only screen and (min-width: 2001px) {
   #top .container {
