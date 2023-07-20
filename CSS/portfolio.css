@@ -92,7 +92,7 @@
     grid-row: 1 / 2;
 }
 #portfolio .portfolio-container .box.image1 .image{
-    background: url(../Images/Renew-Fitness.png);
+    background: url(../Images/Paris\ Johnson.jpg);
     height: 100%;
     width: 100%;
     background-size: cover;
@@ -116,7 +116,7 @@
     grid-row: 2 / 4;
 }
 #portfolio .portfolio-container .box.image3 .image{
-    background: url(../Images/Paris\ Johnson.jpg);
+    background: url(../Images/Renew-Fitness.png);
     height: 100%;
     width: 100%;
     background-size: cover;
