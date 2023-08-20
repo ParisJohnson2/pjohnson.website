@@ -164,11 +164,11 @@
     grid-row: 4 / 6;
 }
 #portfolio .portfolio-container .box.image7 .image{
-    background: url(../Images/savannah-b.png);
+    background: url(../Images/savannah-b-2.png);
     height: 100%;
     width: 100%;
     background-size: cover;
-    background-position: center center;
+    background-position: top center;
     background-repeat: no-repeat;
 }
 /* Tablets */
