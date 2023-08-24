@@ -128,11 +128,11 @@
     grid-row: 2 / 2;
 }
 #portfolio .portfolio-container .box.image4 .image{
-    background: url(../Images/mortgage-calc.png);
+    background: url(../Images/aa-dermatology.png);
     height: 100%;
     width: 100%;
     background-size: cover;
-    background-position: center center;
+    background-position: top center;
     background-repeat: no-repeat;
 }
 #portfolio .portfolio-container .box.image5{
